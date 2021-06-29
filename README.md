@@ -94,7 +94,7 @@ export default defineConfig({
   }
 });
 ```
-同是保证你的css(scss|less)文件名有module关键字，比如你的App文件对应的样式需要这样命名：App.module.scss。
+同时保证你的css(scss|less)文件名有module关键字，比如你的App文件对应的样式需要这样命名：App.module.scss。
 如果你想让你的样式不进行hash处理，在你对应的类名前加关键字:global
 ```
 :global .about-wraper {
