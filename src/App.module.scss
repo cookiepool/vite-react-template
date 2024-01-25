@@ -6,7 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #282c34;
+  background-color: #fff;
 }
 
 code {
@@ -62,17 +62,17 @@ code {
   align-items: center;
 }
 .link-title {
-  color: #fff;
+  color: #000;
   text-decoration: underline;
   cursor: pointer;
 }
 .link-line {
-  color: #fff;
+  color: #000;
   margin: 0 12px;
 }
 .about-text {
   text-align: center;
-  color: #fff;
+  color: #000;
 }
 
 :global .about-wraper {

@@ -22,6 +22,14 @@ class App extends React.Component {
             <Link to="/about">
               <span className={styles['link-title']}>About</span>
             </Link>
+            <span className={styles['link-line']}> | </span>
+            <Link to="/emotion-css">
+              <span className={styles['link-title']}>EmotionCss</span>
+            </Link>
+            <span className={styles['link-line']}> | </span>
+            <Link to="/antd-test">
+              <span className={styles['link-title']}>Antd-Test</span>
+            </Link>
           </div>
           <Switch>
             <React.Suspense fallback={<Loading></Loading>}>
